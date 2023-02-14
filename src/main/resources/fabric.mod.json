@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "better_mcdonalds_mod_fabric",
+  "version": "1.0.0",
+  "name": "Better McDonalds Mod Fabric",
+  "authors": [
+    "Moritz Hartkopf, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "simon_mc.better_mcdonalds_mod_fabric.BetterMcdonaldsModFabricMod"
+    ],
+    "client": [
+      "simon_mc.better_mcdonalds_mod_fabric.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
