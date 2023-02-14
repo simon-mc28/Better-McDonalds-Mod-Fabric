@@ -1,16 +1,18 @@
 {
   "schemaVersion": 1,
   "id": "better_mcdonalds_mod_fabric",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "name": "Better McDonalds Mod Fabric",
+  "description": "Many well-known McDonalds products have been added.",
   "authors": [
-    "Moritz Hartkopf, MCreator"
+    "simon_mc, Volwert123"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/better-mcdonalds-mod",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "MIT License",
+  "icon": "assets/better_mcdonalds_mod_fabric/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
