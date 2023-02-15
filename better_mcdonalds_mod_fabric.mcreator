@@ -9,13 +9,82 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/item/SaltItem.java",
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/item/salt.json"
+        ]
+      }
+    },
+    {
+      "name": "SaltBlockLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_block_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/loot_tables/blocks/salt_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SaltBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/world/features/ores/SaltBlockFeature.java",
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/block/salt_block.json",
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/item/salt_block.json",
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/blockstates/salt_block.json",
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/block/SaltBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SaltTag",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/c/tags/items/salt.json"
+        ]
+      }
+    },
+    {
+      "name": "SaltBlockCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_block_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/salt_block_crafting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.better_mcdonalds_mod_fabric.mod_creative_tab": "Better McDonalds Mod"
+      "itemGroup.better_mcdonalds_mod_fabric.mod_creative_tab": "Better McDonalds Mod",
+      "block.better_mcdonalds_mod_fabric.salt_block": "Salt Block",
+      "item.better_mcdonalds_mod_fabric.salt": "Salt"
     }
   },
   "foldersRoot": {

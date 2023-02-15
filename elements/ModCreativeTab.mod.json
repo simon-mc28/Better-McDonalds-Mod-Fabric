@@ -4,7 +4,7 @@
   "definition": {
     "name": "Better McDonalds Mod",
     "icon": {
-      "value": "Blocks.REINFORCED_DEEPSLATE"
+      "value": "CUSTOM:Salt"
     },
     "showSearch": false
   }

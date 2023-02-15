@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "better_mcdonalds_mod_fabric:blocks/salt_block",
+    "particle": "better_mcdonalds_mod_fabric:blocks/salt_block"
+  }
+}

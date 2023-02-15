@@ -1,0 +1,18 @@
+{
+  "_fv": 38,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Salt"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "salt",
+    "namespace": "c"
+  }
+}

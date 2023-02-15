@@ -1,3 +1,5 @@
 {
-  "itemGroup.better_mcdonalds_mod_fabric.mod_creative_tab": "Better McDonalds Mod"
+  "itemGroup.better_mcdonalds_mod_fabric.mod_creative_tab": "Better McDonalds Mod",
+  "block.better_mcdonalds_mod_fabric.salt_block": "Salt Block",
+  "item.better_mcdonalds_mod_fabric.salt": "Salt"
 }

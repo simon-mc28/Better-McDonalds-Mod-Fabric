@@ -12,6 +12,8 @@
 */
 package simon_mc.better_mcdonalds_mod_fabric;
 
+import simon_mc.better_mcdonalds_mod_fabric.init.BetterMcdonaldsModFabricModBlocks;
+
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -20,6 +22,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		BetterMcdonaldsModFabricModBlocks.clientLoad();
 
 	}
 }

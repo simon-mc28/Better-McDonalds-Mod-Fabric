@@ -13,6 +13,9 @@
 package simon_mc.better_mcdonalds_mod_fabric;
 
 import simon_mc.better_mcdonalds_mod_fabric.init.BetterMcdonaldsModFabricModTabs;
+import simon_mc.better_mcdonalds_mod_fabric.init.BetterMcdonaldsModFabricModItems;
+import simon_mc.better_mcdonalds_mod_fabric.init.BetterMcdonaldsModFabricModFeatures;
+import simon_mc.better_mcdonalds_mod_fabric.init.BetterMcdonaldsModFabricModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -27,6 +30,11 @@ public class BetterMcdonaldsModFabricMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing BetterMcdonaldsModFabricMod");
 		BetterMcdonaldsModFabricModTabs.load();
+
+		BetterMcdonaldsModFabricModBlocks.load();
+		BetterMcdonaldsModFabricModItems.load();
+
+		BetterMcdonaldsModFabricModFeatures.load();
 
 	}
 }
