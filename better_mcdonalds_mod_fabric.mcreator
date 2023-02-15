@@ -1,9 +1,22 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ModCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.better_mcdonalds_mod_fabric.mod_creative_tab": "Better McDonalds Mod"
+    }
   },
   "foldersRoot": {
     "name": "~",

@@ -12,6 +12,8 @@
  */
 package simon_mc.better_mcdonalds_mod_fabric;
 
+import simon_mc.better_mcdonalds_mod_fabric.init.BetterMcdonaldsModFabricModTabs;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -24,6 +26,7 @@ public class BetterMcdonaldsModFabricMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing BetterMcdonaldsModFabricMod");
+		BetterMcdonaldsModFabricModTabs.load();
 
 	}
 }
