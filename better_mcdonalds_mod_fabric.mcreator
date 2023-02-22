@@ -71,7 +71,7 @@
     {
       "name": "SaltBlockCrafting",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_block_crafting",
@@ -98,7 +98,7 @@
     {
       "name": "CheeseCrafting",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_crafting",
@@ -125,7 +125,7 @@
     {
       "name": "MayonnaiseCrafting",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mayonnaise_crafting",
@@ -138,7 +138,7 @@
     {
       "name": "Knife",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knife",
@@ -152,20 +152,20 @@
     {
       "name": "KnifeCrafting",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knife_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/knife_crafting.json"
+          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/mayonnaise_crafting.json"
         ]
       }
     },
     {
       "name": "BeefPatty",
       "type": "item",
-      "sortid": 13,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beef_patty",
@@ -179,7 +179,7 @@
     {
       "name": "BeefPattyCrafting",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beef_patty_crafting",
@@ -192,7 +192,7 @@
     {
       "name": "CookedBeefPatty",
       "type": "item",
-      "sortid": 15,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_beef_patty",
@@ -241,6 +241,33 @@
           "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/cooked_beef_patty_campfire_cooking.json"
         ]
       }
+    },
+    {
+      "name": "Fries",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fries",
+      "metadata": {
+        "files": [
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/item/FriesItem.java",
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/item/fries.json"
+        ]
+      }
+    },
+    {
+      "name": "FriesCrafting",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fries_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/fries_crafting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -254,7 +281,8 @@
       "item.better_mcdonalds_mod_fabric.cooked_beef_patty": "Cooked Beef Patty",
       "item.better_mcdonalds_mod_fabric.knife": "Knife",
       "item.better_mcdonalds_mod_fabric.salt": "Salt",
-      "item.better_mcdonalds_mod_fabric.beef_patty": "Beef Patty"
+      "item.better_mcdonalds_mod_fabric.beef_patty": "Beef Patty",
+      "item.better_mcdonalds_mod_fabric.fries": "Fries"
     }
   },
   "foldersRoot": {

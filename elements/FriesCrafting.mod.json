@@ -10,13 +10,13 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:c:eggs"
+        "value": "Items.BAKED_POTATO"
       },
       {
-        "value": ""
+        "value": "TAG:c:salt"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Knife"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Mayonnaise"
+      "value": "CUSTOM:Fries"
     },
-    "name": "mayonnaise_crafting",
+    "name": "fries_crafting",
     "namespace": "mod"
   }
 }
