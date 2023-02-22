@@ -10,25 +10,25 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "TAG:c:salt"
+        "value": ""
       },
       {
-        "value": "TAG:c:salt"
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:c:salt"
-      },
-      {
-        "value": "TAG:c:salt"
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SaltBlock"
+      "value": "CUSTOM:Knife"
     },
-    "name": "salt_block_crafting",
+    "name": "knife_crafting",
     "namespace": "mod"
   }
 }

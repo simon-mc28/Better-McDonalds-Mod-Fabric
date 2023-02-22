@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "result": {
+    "item": "better_mcdonalds_mod_fabric:mayonnaise",
+    "count": 1
+  }
+}

@@ -3,6 +3,7 @@
     {
       "name": "ModCreativeTab",
       "type": "tab",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mod_creative_tab",
@@ -27,6 +28,7 @@
     {
       "name": "SaltBlockLoot",
       "type": "loottable",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_block_loot",
@@ -56,6 +58,7 @@
     {
       "name": "SaltTag",
       "type": "tag",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_tag",
@@ -68,6 +71,7 @@
     {
       "name": "SaltBlockCrafting",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_block_crafting",
@@ -76,14 +80,98 @@
           "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/salt_block_crafting.json"
         ]
       }
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/item/CheeseItem.java",
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/item/cheese.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseCrafting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/cheese.json"
+        ]
+      }
+    },
+    {
+      "name": "Mayonnaise",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mayonnaise",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/item/mayonnaise.json",
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/item/MayonnaiseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MayonnaiseCrafting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mayonnaise_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/mayonnaise_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/item/knife.json",
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/item/KnifeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KnifeCrafting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/knife_crafting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.better_mcdonalds_mod_fabric.cheese": "Cheese",
       "itemGroup.better_mcdonalds_mod_fabric.mod_creative_tab": "Better McDonalds Mod",
       "block.better_mcdonalds_mod_fabric.salt_block": "Salt Block",
+      "item.better_mcdonalds_mod_fabric.mayonnaise": "Mayonnaise",
+      "item.better_mcdonalds_mod_fabric.knife": "Knife",
       "item.better_mcdonalds_mod_fabric.salt": "Salt"
     }
   },
@@ -111,5 +199,5 @@
     "modElementsPackage": "simon_mc.better_mcdonalds_mod_fabric",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300104717
+  "mcreatorVersion": 202300108712
 }

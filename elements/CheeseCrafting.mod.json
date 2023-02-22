@@ -7,10 +7,10 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:c:salt"
+        "value": "Items.MILK_BUCKET"
       },
       {
         "value": "TAG:c:salt"
@@ -19,10 +19,10 @@
         "value": ""
       },
       {
-        "value": "TAG:c:salt"
+        "value": ""
       },
       {
-        "value": "TAG:c:salt"
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SaltBlock"
+      "value": "CUSTOM:Cheese"
     },
-    "name": "salt_block_crafting",
+    "name": "cheese",
     "namespace": "mod"
   }
 }

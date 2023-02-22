@@ -7,22 +7,22 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:c:salt"
-      },
-      {
-        "value": "TAG:c:salt"
+        "value": "TAG:c:eggs"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:c:salt"
+        "value": ""
       },
       {
-        "value": "TAG:c:salt"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SaltBlock"
+      "value": "CUSTOM:Mayonnaise"
     },
-    "name": "salt_block_crafting",
+    "name": "mayonnaise_crafting",
     "namespace": "mod"
   }
 }

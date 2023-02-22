@@ -1,5 +1,7 @@
 package simon_mc.better_mcdonalds_mod_fabric.mixins;
 
+import simon_mc.better_mcdonalds_mod_fabric.init.BetterMcdonaldsModFabricModItems;
+
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.At;
@@ -26,6 +28,9 @@ public abstract class BetterMcdonaldsModFabricModRepairItemRecipeMixin {
 			if (itemStack.isEmpty())
 				continue;
 			list.add(itemStack);
+		}
+		if ((itemStack3 = (ItemStack) list.get(0)).is((BetterMcdonaldsModFabricModItems.KNIFE))) {
+			cir.setReturnValue(ItemStack.EMPTY);
 		}
 	}
 }
