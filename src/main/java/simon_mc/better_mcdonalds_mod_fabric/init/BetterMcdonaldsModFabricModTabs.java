@@ -14,6 +14,6 @@ public class BetterMcdonaldsModFabricModTabs {
 	public static CreativeModeTab TAB_MOD_CREATIVE_TAB;
 
 	public static void load() {
-		TAB_MOD_CREATIVE_TAB = FabricItemGroupBuilder.create(new ResourceLocation("better_mcdonalds_mod_fabric", "mod_creative_tab")).icon(() -> new ItemStack(BetterMcdonaldsModFabricModItems.SALT)).build();
+		TAB_MOD_CREATIVE_TAB = FabricItemGroupBuilder.create(new ResourceLocation("better_mcdonalds_mod_fabric", "mod_creative_tab")).icon(() -> new ItemStack(BetterMcdonaldsModFabricModItems.FRIES)).build();
 	}
 }

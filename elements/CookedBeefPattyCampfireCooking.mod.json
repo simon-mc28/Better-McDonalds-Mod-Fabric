@@ -2,19 +2,19 @@
   "_fv": 39,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Campfire cooking",
+    "recipeType": "Smoking",
     "xpReward": 1.0,
-    "cookingTime": 600,
+    "cookingTime": 100,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "campfireCookingInputStack": {
+    "smokingInputStack": {
       "value": "CUSTOM:BeefPatty"
     },
-    "campfireCookingReturnStack": {
+    "smokingReturnStack": {
       "value": "CUSTOM:CookedBeefPatty"
     },
-    "name": "cooked_beef_patty_campfire_cooking",
+    "name": "cooked_beef_patty_smoking",
     "namespace": "mod"
   }
 }

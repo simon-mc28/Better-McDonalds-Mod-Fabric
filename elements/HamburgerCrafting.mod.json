@@ -10,10 +10,10 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:c:eggs"
+        "value": "Items.BREAD"
       },
       {
-        "value": ""
+        "value": "CUSTOM:CookedBeefPatty"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Mayonnaise"
+      "value": "CUSTOM:Hamburger"
     },
-    "name": "mayonnaise_crafting",
+    "name": "hamburger_crafting",
     "namespace": "mod"
   }
 }

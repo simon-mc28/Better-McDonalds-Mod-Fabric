@@ -1,7 +1,7 @@
 {
-  "type": "minecraft:campfire_cooking",
+  "type": "minecraft:smoking",
   "experience": 1,
-  "cookingtime": 600,
+  "cookingtime": 100,
   "ingredient": {
     "item": "better_mcdonalds_mod_fabric:beef_patty"
   },
