@@ -10,19 +10,19 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:c:eggs"
+        "value": "Items.WATER_BUCKET"
       },
       {
-        "value": ""
+        "value": "Items.SUGAR"
       },
       {
-        "value": ""
+        "value": "TAG:c:salt"
       },
       {
-        "value": ""
+        "value": "Items.WHEAT"
       },
       {
-        "value": ""
+        "value": "Items.DYE#14"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Mayonnaise"
+      "value": "CUSTOM:SweetSourSauce"
     },
-    "name": "mayonnaise_crafting",
+    "name": "sweet_sour_sauce_crafting",
     "namespace": "mod"
   }
 }
