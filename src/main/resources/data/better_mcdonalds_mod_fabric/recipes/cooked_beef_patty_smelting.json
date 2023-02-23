@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 1,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "better_mcdonalds_mod_fabric:beef_patty"
-  },
-  "result": "better_mcdonalds_mod_fabric:cooked_beef_patty"
-}

@@ -13,6 +13,7 @@ import simon_mc.better_mcdonalds_mod_fabric.item.FriesItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.CookedBeefPattyItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.CheeseburgerItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.CheeseItem;
+import simon_mc.better_mcdonalds_mod_fabric.item.BigMacItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.BeefPattyItem;
 import simon_mc.better_mcdonalds_mod_fabric.BetterMcdonaldsModFabricMod;
 
@@ -30,9 +31,10 @@ public class BetterMcdonaldsModFabricModItems {
 	public static Item MAYONNAISE;
 	public static Item SWEET_SOUR_SAUCE;
 	public static Item HAMBURGER;
+	public static Item CHEESEBURGER;
+	public static Item BIG_MAC;
 	public static Item FRIES;
 	public static Item KNIFE;
-	public static Item CHEESEBURGER;
 
 	public static void load() {
 		SALT_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "salt_block"),
@@ -44,8 +46,9 @@ public class BetterMcdonaldsModFabricModItems {
 		MAYONNAISE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "mayonnaise"), new MayonnaiseItem());
 		SWEET_SOUR_SAUCE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "sweet_sour_sauce"), new SweetSourSauceItem());
 		HAMBURGER = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "hamburger"), new HamburgerItem());
+		CHEESEBURGER = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "cheeseburger"), new CheeseburgerItem());
+		BIG_MAC = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "big_mac"), new BigMacItem());
 		FRIES = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "fries"), new FriesItem());
 		KNIFE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "knife"), new KnifeItem());
-		CHEESEBURGER = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "cheeseburger"), new CheeseburgerItem());
 	}
 }
