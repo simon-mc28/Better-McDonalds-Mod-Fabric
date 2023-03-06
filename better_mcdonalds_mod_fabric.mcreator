@@ -618,6 +618,19 @@
           "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/lipton_ice_tea_peach_crafting.json"
         ]
       }
+    },
+    {
+      "name": "DrinksTag",
+      "type": "tag",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drinks_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/tags/items/drinks.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
