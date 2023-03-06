@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "better_mcdonalds_mod_fabric:cheese"
+    }
+  ],
+  "result": {
+    "item": "better_mcdonalds_mod_fabric:filet_o_fish",
+    "count": 1
+  }
+}
