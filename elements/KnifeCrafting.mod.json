@@ -7,28 +7,28 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "TAG:c:eggs"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.IRON_INGOT"
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Mayonnaise"
+      "value": "CUSTOM:Knife"
     },
-    "name": "mayonnaise_crafting",
+    "name": "knife_crafting",
     "namespace": "mod"
   }
 }

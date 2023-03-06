@@ -10,7 +10,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:c:eggs"
+        "value": "Items.EGG"
       },
       {
         "value": ""

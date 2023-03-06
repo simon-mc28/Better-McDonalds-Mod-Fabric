@@ -2,45 +2,19 @@
   "_fv": 39,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
-    "recipeSlots": [
-      {
-        "value": "TAG:c:eggs"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Mayonnaise"
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:BeefPatty"
     },
-    "name": "mayonnaise_crafting",
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedBeefPatty"
+    },
+    "name": "cooked_beef_patty_smelting",
     "namespace": "mod"
   }
 }

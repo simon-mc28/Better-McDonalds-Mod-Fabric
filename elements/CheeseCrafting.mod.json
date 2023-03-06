@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:Cheese"
     },
-    "name": "cheese",
+    "name": "cheese_crafting",
     "namespace": "mod"
   }
 }

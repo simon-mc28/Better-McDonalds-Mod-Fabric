@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "better_mcdonalds_mod_fabric:cooked_beef_patty"
+    }
+  ],
+  "result": {
+    "item": "better_mcdonalds_mod_fabric:hamburger",
+    "count": 1
+  }
+}
