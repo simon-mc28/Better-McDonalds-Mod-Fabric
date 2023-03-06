@@ -3,7 +3,7 @@
     {
       "name": "ModCreativeTab",
       "type": "tab",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mod_creative_tab",
@@ -28,7 +28,7 @@
     {
       "name": "SaltBlockLoot",
       "type": "loottable",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_block_loot",
@@ -58,7 +58,7 @@
     {
       "name": "SaltTag",
       "type": "tag",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_tag",
@@ -99,7 +99,7 @@
     {
       "name": "Knife",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knife",
@@ -141,7 +141,7 @@
     {
       "name": "Fries",
       "type": "item",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fries",
@@ -224,7 +224,7 @@
     {
       "name": "CheeseCrafting",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_crafting",
@@ -237,7 +237,7 @@
     {
       "name": "MayonnaiseCrafting",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mayonnaise_crafting",
@@ -250,7 +250,7 @@
     {
       "name": "BeefPattyCrafting",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beef_patty_crafting",
@@ -263,7 +263,7 @@
     {
       "name": "CookedBeefPattySmelting",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_beef_patty_smelting",
@@ -276,7 +276,7 @@
     {
       "name": "CookedBeefPattySmoking",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_beef_patty_smoking",
@@ -289,7 +289,7 @@
     {
       "name": "CookedBeefPattyCampfireCooking",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_beef_patty_campfire_cooking",
@@ -302,7 +302,7 @@
     {
       "name": "FriesCrafting",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fries_crafting",
@@ -315,7 +315,7 @@
     {
       "name": "SweetSourSauceCrafting",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sweet_sour_sauce_crafting",
@@ -328,7 +328,7 @@
     {
       "name": "HamburgerCrafting",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hamburger_crafting",
@@ -341,7 +341,7 @@
     {
       "name": "CheeseburgerCrafting",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheeseburger_crafting",
@@ -354,7 +354,7 @@
     {
       "name": "BigMacCrafting",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_mac_crafting",
@@ -367,13 +367,40 @@
     {
       "name": "KnifeCrafting",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "knife_crafting",
       "metadata": {
         "files": [
           "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/knife_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "Chickenburger",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chickenburger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/better_mcdonalds_mod_fabric/models/item/chickenburger.json",
+          "src/main/java/simon_mc/better_mcdonalds_mod_fabric/item/ChickenburgerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChickenburgerCrafting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chickenburger_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/chickenburger_crafting.json"
         ]
       }
     }
@@ -393,6 +420,7 @@
       "item.better_mcdonalds_mod_fabric.big_mac": "Big Mac",
       "item.better_mcdonalds_mod_fabric.cheese": "Cheese",
       "item.better_mcdonalds_mod_fabric.cheeseburger": "Cheeseburger",
+      "item.better_mcdonalds_mod_fabric.chickenburger": "Chickenburger",
       "item.better_mcdonalds_mod_fabric.mayonnaise": "Mayonnaise",
       "item.better_mcdonalds_mod_fabric.beef_patty": "Beef Patty"
     }
