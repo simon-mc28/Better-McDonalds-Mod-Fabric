@@ -5,6 +5,7 @@
 package simon_mc.better_mcdonalds_mod_fabric.init;
 
 import simon_mc.better_mcdonalds_mod_fabric.item.SweetSourSauceItem;
+import simon_mc.better_mcdonalds_mod_fabric.item.SpriteItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.SaltItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.McChickenItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.MayonnaiseItem;
@@ -46,6 +47,7 @@ public class BetterMcdonaldsModFabricModItems {
 	public static Item FRIES;
 	public static Item COCA_COLA;
 	public static Item FANTA;
+	public static Item SPRITE;
 	public static Item KNIFE;
 
 	public static void load() {
@@ -67,6 +69,7 @@ public class BetterMcdonaldsModFabricModItems {
 		FRIES = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "fries"), new FriesItem());
 		COCA_COLA = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "coca_cola"), new CocaColaItem());
 		FANTA = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "fanta"), new FantaItem());
+		SPRITE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "sprite"), new SpriteItem());
 		KNIFE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "knife"), new KnifeItem());
 	}
 }
