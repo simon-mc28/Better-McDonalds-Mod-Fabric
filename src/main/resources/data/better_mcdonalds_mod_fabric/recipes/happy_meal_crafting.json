@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "better_mcdonalds_mod_fabric:burger"
+    },
+    {
+      "tag": "better_mcdonalds_mod_fabric:drinks"
+    },
+    {
+      "tag": "better_mcdonalds_mod_fabric:sauce"
+    },
+    {
+      "item": "better_mcdonalds_mod_fabric:fries"
+    },
+    {
+      "item": "better_mcdonalds_mod_fabric:chicken_nuggets"
+    }
+  ],
+  "result": {
+    "item": "better_mcdonalds_mod_fabric:happy_meal",
+    "count": 1
+  }
+}

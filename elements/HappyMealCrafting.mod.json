@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:better_mcdonalds_mod_fabric:burger"
+      },
+      {
+        "value": "TAG:better_mcdonalds_mod_fabric:drinks"
+      },
+      {
+        "value": "TAG:better_mcdonalds_mod_fabric:sauce"
+      },
+      {
+        "value": "CUSTOM:Fries"
+      },
+      {
+        "value": "CUSTOM:ChickenNuggets"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HappyMeal"
+    },
+    "name": "happy_meal_crafting",
+    "namespace": "mod"
+  }
+}
