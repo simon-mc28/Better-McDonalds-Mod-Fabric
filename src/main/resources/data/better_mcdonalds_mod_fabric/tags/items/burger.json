@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "better_mcdonalds_mod_fabric:mc_chicken",
+    "better_mcdonalds_mod_fabric:chickenburger",
+    "better_mcdonalds_mod_fabric:cheeseburger",
+    "better_mcdonalds_mod_fabric:hamburger",
+    "better_mcdonalds_mod_fabric:big_mac",
+    "better_mcdonalds_mod_fabric:filet_o_fish"
+  ]
+}

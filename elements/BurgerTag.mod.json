@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Hamburger"
+      },
+      {
+        "value": "CUSTOM:Cheeseburger"
+      },
+      {
+        "value": "CUSTOM:BigMac"
+      },
+      {
+        "value": "CUSTOM:Chickenburger"
+      },
+      {
+        "value": "CUSTOM:McChicken"
+      },
+      {
+        "value": "CUSTOM:FiletOFish"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "burger",
+    "namespace": "mod"
+  }
+}

@@ -484,6 +484,32 @@
           "src/main/resources/data/better_mcdonalds_mod_fabric/recipes/chicken_nuggets_crafting.json"
         ]
       }
+    },
+    {
+      "name": "BurgerTag",
+      "type": "tag",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burger_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/tags/items/burger.json"
+        ]
+      }
+    },
+    {
+      "name": "SauceTag",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sauce_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_mcdonalds_mod_fabric/tags/items/sauce.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
