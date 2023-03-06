@@ -14,6 +14,7 @@ import simon_mc.better_mcdonalds_mod_fabric.item.FriesItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.FiletOFishItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.CookedBeefPattyItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.ChickenburgerItem;
+import simon_mc.better_mcdonalds_mod_fabric.item.ChickenNuggetsItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.CheeseburgerItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.CheeseItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.BigMacItem;
@@ -39,6 +40,7 @@ public class BetterMcdonaldsModFabricModItems {
 	public static Item CHICKENBURGER;
 	public static Item MC_CHICKEN;
 	public static Item FILET_O_FISH;
+	public static Item CHICKEN_NUGGETS;
 	public static Item FRIES;
 	public static Item KNIFE;
 
@@ -57,6 +59,7 @@ public class BetterMcdonaldsModFabricModItems {
 		CHICKENBURGER = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "chickenburger"), new ChickenburgerItem());
 		MC_CHICKEN = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "mc_chicken"), new McChickenItem());
 		FILET_O_FISH = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "filet_o_fish"), new FiletOFishItem());
+		CHICKEN_NUGGETS = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "chicken_nuggets"), new ChickenNuggetsItem());
 		FRIES = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "fries"), new FriesItem());
 		KNIFE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "knife"), new KnifeItem());
 	}
