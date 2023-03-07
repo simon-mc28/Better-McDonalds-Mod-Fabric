@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_mcdonalds_mod_fabric:salt"
+    },
+    "title": {
+      "translate": "advancements.get_salt_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.get_salt_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_salt_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better_mcdonalds_mod_fabric:salt"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "better_mcdonalds_mod_fabric:mod_start_advancement"
+}

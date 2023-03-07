@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_mcdonalds_mod_fabric:hamburger"
+    },
+    "title": {
+      "translate": "advancements.craft_burger_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.craft_burger_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_burger_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better_mcdonalds_mod_fabric:hamburger"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "better_mcdonalds_mod_fabric:craft_knife_advancement"
+}

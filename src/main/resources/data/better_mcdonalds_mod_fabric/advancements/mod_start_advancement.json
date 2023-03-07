@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "better_mcdonalds_mod_fabric:textures/screens/advancement_tab.png",
+    "icon": {
+      "item": "better_mcdonalds_mod_fabric:happy_meal"
+    },
+    "title": {
+      "translate": "advancements.mod_start_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.mod_start_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mod_start_advancement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
