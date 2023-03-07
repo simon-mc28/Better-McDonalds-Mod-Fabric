@@ -7,6 +7,7 @@ package simon_mc.better_mcdonalds_mod_fabric.init;
 import simon_mc.better_mcdonalds_mod_fabric.item.SweetSourSauceItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.SpriteItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.SaltItem;
+import simon_mc.better_mcdonalds_mod_fabric.item.McFlurryItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.McChickenItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.MayonnaiseItem;
 import simon_mc.better_mcdonalds_mod_fabric.item.LiptonIceTeaPeachItem;
@@ -52,6 +53,7 @@ public class BetterMcdonaldsModFabricModItems {
 	public static Item FANTA;
 	public static Item SPRITE;
 	public static Item LIPTON_ICE_TEA_PEACH;
+	public static Item MC_FLURRY;
 	public static Item KNIFE;
 
 	public static void load() {
@@ -76,6 +78,7 @@ public class BetterMcdonaldsModFabricModItems {
 		FANTA = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "fanta"), new FantaItem());
 		SPRITE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "sprite"), new SpriteItem());
 		LIPTON_ICE_TEA_PEACH = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "lipton_ice_tea_peach"), new LiptonIceTeaPeachItem());
+		MC_FLURRY = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "mc_flurry"), new McFlurryItem());
 		KNIFE = Registry.register(Registry.ITEM, new ResourceLocation(BetterMcdonaldsModFabricMod.MODID, "knife"), new KnifeItem());
 	}
 }
