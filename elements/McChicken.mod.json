@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "mcchicken",
     "customModelName": "Normal",
-    "name": "Mc Chicken",
+    "name": "McChicken",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ModCreativeTab"

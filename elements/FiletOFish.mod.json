@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "filet_o_fish",
     "customModelName": "Normal",
-    "name": "Filet O Fish",
+    "name": "Filet-O-Fish",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ModCreativeTab"

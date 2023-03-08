@@ -756,8 +756,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.better_mcdonalds_mod_fabric.fanta": "Fanta",
       "advancements.get_salt_advancement.title": "Very salty!",
+      "item.better_mcdonalds_mod_fabric.fanta": "Fanta",
       "item.better_mcdonalds_mod_fabric.sweet_sour_sauce": "Sweet \u0027N Sour Sauce",
       "item.better_mcdonalds_mod_fabric.hamburger": "Hamburger",
       "advancements.mod_start_advancement.descr": "Start of the mod",
@@ -767,15 +767,15 @@
       "advancements.craft_burger_advancement.descr": "Craft a hamburger",
       "item.better_mcdonalds_mod_fabric.salt": "Salt",
       "item.better_mcdonalds_mod_fabric.fries": "Fries",
-      "item.better_mcdonalds_mod_fabric.big_mac": "Big Mac",
-      "item.better_mcdonalds_mod_fabric.filet_o_fish": "Filet O Fish",
+      "item.better_mcdonalds_mod_fabric.big_mac": "BigMac",
+      "item.better_mcdonalds_mod_fabric.filet_o_fish": "Filet-O-Fish",
       "advancements.get_salt_advancement.descr": "Obtain salt from rivers",
       "item.better_mcdonalds_mod_fabric.sprite": "Sprite",
-      "item.better_mcdonalds_mod_fabric.mc_flurry": "Mc Flurry",
+      "item.better_mcdonalds_mod_fabric.mc_flurry": "McFlurry",
       "item.better_mcdonalds_mod_fabric.cheese": "Cheese",
       "item.better_mcdonalds_mod_fabric.cheeseburger": "Cheeseburger",
       "item.better_mcdonalds_mod_fabric.mayonnaise": "Mayonnaise",
-      "item.better_mcdonalds_mod_fabric.mc_chicken": "Mc Chicken",
+      "item.better_mcdonalds_mod_fabric.mc_chicken": "McChicken",
       "item.better_mcdonalds_mod_fabric.coca_cola": "Coca-Cola",
       "item.better_mcdonalds_mod_fabric.chicken_nuggets": "Chicken Nuggets",
       "advancements.craft_knife_advancement.title": "Cut it into half!",
@@ -815,5 +815,5 @@
     "modElementsPackage": "simon_mc.better_mcdonalds_mod_fabric",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300109612
+  "mcreatorVersion": 202300110219
 }

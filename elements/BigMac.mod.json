@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "bigmac",
     "customModelName": "Normal",
-    "name": "Big Mac",
+    "name": "BigMac",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ModCreativeTab"
